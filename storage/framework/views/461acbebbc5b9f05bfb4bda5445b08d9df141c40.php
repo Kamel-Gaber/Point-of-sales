@@ -9,7 +9,7 @@
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
                 <ul id="dashboard" class="collapse" data-parent="#sidebarnav">
-                    <li> <a href="index.html"><?php echo e(trans('main-sidebar.Dashboard 01')); ?></a> </li>
+                    <li> <a href="<?php echo e(route('categories.index')); ?>"><?php echo e(trans('main-sidebar.Dashboard 01')); ?></a> </li>
                     <li> <a href="index-02.html"><?php echo e(trans('main-sidebar.Dashboard 02')); ?></a> </li>
                     <li> <a href="index-03.html"><?php echo e(trans('main-sidebar.Dashboard 03')); ?></a> </li>
                     <li> <a href="index-04.html"><?php echo e(trans('main-sidebar.Dashboard 04')); ?></a> </li>

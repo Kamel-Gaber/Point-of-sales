@@ -9,7 +9,7 @@
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
                 <ul id="dashboard" class="collapse" data-parent="#sidebarnav">
-                    <li> <a href="index.html">{{trans('main-sidebar.Dashboard 01')}}</a> </li>
+                    <li> <a href="{{route('categories.index')}}">{{trans('main-sidebar.Dashboard 01')}}</a> </li>
                     <li> <a href="index-02.html">{{trans('main-sidebar.Dashboard 02')}}</a> </li>
                     <li> <a href="index-03.html">{{trans('main-sidebar.Dashboard 03')}}</a> </li>
                     <li> <a href="index-04.html">{{trans('main-sidebar.Dashboard 04')}}</a> </li>
