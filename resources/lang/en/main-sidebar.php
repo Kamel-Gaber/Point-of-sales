@@ -4,7 +4,7 @@ return [
 
 
     'Dashboard'   => 'Dashboard',
-    'Dashboard 01' => 'Dashboard 01',
+    'Dashboard 01' => 'categorie',
     'Dashboard 02' => 'Dashboard 02',
     'Dashboard 03' => 'Dashboard 03',
     'Dashboard 04' => 'Dashboard 04',

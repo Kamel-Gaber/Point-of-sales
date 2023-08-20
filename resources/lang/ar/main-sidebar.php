@@ -13,7 +13,7 @@ return [
     */
 
     'Dashboard'   => 'الرئيسية',
-    'Dashboard 01' => 'الرئيسية01',
+    'Dashboard 01' => 'الاقسام',
     'Dashboard 02' => 'الرئيسية02',
     'Dashboard 03' => 'الرئيسية03',
     'Dashboard 04' => 'الرئيسية04',

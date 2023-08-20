@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategorieController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -21,11 +22,14 @@ Route::group(
     ], function(){
 
 
-    Route::get('/', function () {
+    Route::get('/dashboard', function () {
         return view('backend.dashboard');
     })->middleware(['auth'])->name('dashboard');
-    require __DIR__.'/auth.php';
 
+
+    Route::resource('categories' , CategorieController::class );
+
+    require __DIR__.'/auth.php';
 });
 
 
